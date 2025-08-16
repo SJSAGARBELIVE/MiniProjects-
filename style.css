@@ -1,0 +1,41 @@
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: #000000;
+      font-family: Arial, sans-serif;
+    }
+
+    .box {
+      background: #20244e;
+      color: white;
+      padding: 20px 40px;
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    #COLOR {
+      margin-top: 20px;
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+    }
+
+    .Start, .Stop {
+      color: #fff;
+      background: blueviolet;
+      border: none;
+      height: 3.5rem;
+      width: 3.5rem;
+      border-radius: 50%;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .Start:hover, .Stop:hover {
+      transform: scale(1.2);
+    }
